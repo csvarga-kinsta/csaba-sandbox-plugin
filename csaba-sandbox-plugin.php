@@ -7,8 +7,3 @@
 * Author URI: https://csabavarga.me/
 **/
 
-add_filter('the_title', 'uppercase_title');
-function uppercase_title ($title) {
-    $title = strtoupper($title);  
-    return $title;
-}
